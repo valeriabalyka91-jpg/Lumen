@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUMEN — современное рекламное агентство в Перми. Полиграфия, наружная реклама, сувенирная продукция, канцелярия, шопперы и SMM.">
+  <title>LUMEN — рекламное агентство</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <a class="logo" href="#top">LUMEN<span>®</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+73422134567">+7 (342) 213-45-67</a>
+    <button class="menu-btn" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">РЕКЛАМНОЕ АГЕНТСТВО · ПЕРМЬ</p>
+        <h1>Создаём<br><em>то, что</em><br>замечают.</h1>
+        <div class="hero-bottom">
+          <p>Дизайн, производство и продвижение<br>для брендов, которым есть что сказать.</p>
+          <a class="round-link" href="#order" aria-label="Перейти к заявке">↘</a>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="statement section" id="about">
+      <div class="section-label">01 / О КОМПАНИИ</div>
+      <div class="statement-text">
+        <p>Мы новая и современная компания будущего.</p>
+        <p class="muted">В каждый проект мы вкладываем кусочек себя и своей любви.</p>
+        <p>Потому что <em>мы любим свою работу.</em></p>
+      </div>
+      <div class="about-grid">
+        <div>
+          <span class="big-number">01</span>
+          <h3>Индивидуальный подход</h3>
+          <p>Стандартные решения и проекты в единичном экземпляре — под задачу именно вашего бизнеса.</p>
+        </div>
+        <div>
+          <span class="big-number">02</span>
+          <h3>Гибкие условия</h3>
+          <p>Подбираем сроки, стоимость, доставку и бонусы так, чтобы сотрудничество было удобным.</p>
+        </div>
+        <div>
+          <span class="big-number">03</span>
+          <h3>Любовь к делу</h3>
+          <p>Мы действительно болеем за рекламное дело и внимательно относимся к каждой детали проекта.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-label">02 / ЧТО МЫ ДЕЛАЕМ</div>
+      <div class="services-head">
+        <h2>Услуги<br><em>без шаблонов.</em></h2>
+        <p>От первой идеи до готового продукта — помогаем брендам быть заметнее.</p>
+      </div>
+      <div class="service-list">
+        <article class="service-item">
+          <span>01</span>
+          <div><h3>Полиграфия</h3><p>Визитки · буклеты · открытки · проспекты · листовки · флаеры</p></div>
+          <b>↗</b>
+        </article>
+        <article class="service-item">
+          <span>02</span>
+          <div><h3>Наружная реклама</h3><p>Баннеры · световые вывески · рекламные конструкции</p></div>
+          <b>↗</b>
+        </article>
+        <article class="service-item">
+          <span>03</span>
+          <div><h3>Сувенирная продукция</h3><p>Кружки · ежедневники · футболки · ручки · флешки · зарядные устройства</p></div>
+          <b>↗</b>
+        </article>
+        <article class="service-item">
+          <span>04</span>
+          <div><h3>Канцелярия</h3><p>Тетради · ручки · блокноты · стикеры</p></div>
+          <b>↗</b>
+        </article>
+        <article class="service-item">
+          <span>05</span>
+          <div><h3>Шопперы</h3><p>Индивидуальный дизайн · нанесение · оптовые заказы</p></div>
+          <b>↗</b>
+        </article>
+        <article class="service-item">
+          <span>06</span>
+          <div><h3>SMM</h3><p>Оформление социальных сетей · визуальная концепция · контент</p></div>
+          <b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <section class="visual-break">
+      <div class="visual-copy">MAKE<br><em>IT</em><br>VISIBLE.</div>
+    </section>
+
+    <section class="order section" id="order">
+      <div class="section-label">03 / ЗАКАЗ</div>
+      <div class="order-layout">
+        <div>
+          <h2>Есть идея?<br><em>Давайте обсудим.</em></h2>
+          <p>Оставьте контакты и коротко расскажите о задаче. Мы свяжемся с вами и обсудим детали.</p>
+        </div>
+        <form id="orderForm">
+          <label>Ваше имя<input type="text" id="name" placeholder="Как к вам обращаться?" required></label>
+          <label>Телефон<input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required></label>
+          <label>Услуга
+            <select id="service">
+              <option>Полиграфия</option>
+              <option>Наружная реклама</option>
+              <option>Сувенирная продукция</option>
+              <option>Канцелярия</option>
+              <option>Шопперы</option>
+              <option>SMM и оформление соцсетей</option>
+            </select>
+          </label>
+          <label>Комментарий<textarea id="message" rows="4" placeholder="Расскажите немного о проекте"></textarea></label>
+          <button class="submit-btn" type="submit">Отправить заявку <span>↗</span></button>
+          <small>Нажимая кнопку, вы соглашаетесь на обработку указанных данных для связи по заявке.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="footer-top">
+      <div class="footer-brand">LUMEN<sup>®</sup><span>РЕКЛАМА, КОТОРУЮ ЗАМЕЧАЮТ.</span></div>
+      <div class="footer-contact">
+        <p>Пермь, ул. Ленина</p>
+        <a href="tel:+73422134567">+7 (342) 213-45-67</a>
+        <a href="mailto:lumen@mail.ru">lumen@mail.ru</a>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="VK">VK</a>
+        <a href="#" aria-label="Telegram">TG</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 LUMEN</span>
+      <a href="#top">НАВЕРХ ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
